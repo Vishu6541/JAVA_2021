@@ -3,10 +3,10 @@ class A {
 static{
 	System.out.println("A static block call");
 }
-
 public static void display(){
 System.out.println("A display method invoke");
 }
+
 
 }
 class B {
@@ -30,7 +30,6 @@ static{
 public static void display(){
 System.out.println("C display method invoke");
 }
-
 
 }
 
