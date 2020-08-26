@@ -1,28 +1,20 @@
-class P{
-
-String s ="ABC"; 
-
-}
-
-class C extends P{
-
-String s ="India"; 
-
-public void m1(){
-System.out.println(s);
-System.out.println(this.s);
-System.out.println(super.s);
-}
-
-
-}
-
 class Test{
-public static void main(String[]arr){
-
-C c =new C();
-c.m1();
-
-}
-
+	
+	public void sum(int a,int b ){
+		System.out.println(a+b);
+	}
+	public void sum(float a,float b){
+		System.out.println(a+b);
+	}
+	public void sum(String a,String b){
+		System.out.println(a+b);
+	}
+ 
+	public static void main(String []arr){
+		
+		Test t1 =new Test();
+		t1.sum("ABC","Vishu");
+	}
+	
+	
 }
