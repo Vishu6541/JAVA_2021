@@ -34,7 +34,7 @@
 	
 }
 
-class Saving extends Account{
+class Saving extends Account {
 
 	public Saving( String name ,String accountNum ,int balance){
 		super(name,accountNum,balance);
@@ -67,5 +67,7 @@ class Bank{
 	krishnaFD.accountInfo();
 		
 	}
+	
+
 
 }
